@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="utf-8">
+		<title>Thing Xin Jie</title>
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+		<meta name="viewport" content="width=1024">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		  
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.css" integrity="sha256-3IkGqGYOvq1Ype2MXFwVJFeBtBACgiveho3SacOEEP8=" crossorigin="anonymous" />
+
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css" integrity="sha256-/sdxenK1NDowSNuphgwjv8wSosSNZB0t5koXqd7XqOI=" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/brands.min.css" integrity="sha256-UZFVAO0Fn854ajzdWnJ2Oze6k1X4LNqE2RJPW3MBfq8=" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/solid.min.css" integrity="sha256-8DcgqUGhWHHsTLj1qcGr0OuPbKkN1RwDjIbZ6DKh/RA=" crossorigin="anonymous" />
+		
+		<link href='https://fonts.googleapis.com/css?family=Delius Unicase' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Sarpanch' rel='stylesheet'>
+       
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- Full Page JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/vendors/easings.min.js" integrity="sha256-se1LVUgnBaGcZvC0A7xkl3Lea7CRU5BQqUQT8ZvdH4A=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.js" integrity="sha256-e13jRNqOX98m6UAwI/yZTpcDseJtA8s86yfFs4Sqrv8=" crossorigin="anonymous"></script>
+        
+		<link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+		<link href='https://fonts.googleapis.com/css?family=Dosis:400,600' rel='stylesheet' type='text/css'>
+
+		<script src="main2.js"></script>
+		<script src="main.js"></script>
+		<script src="fullpage.js"></script>		
+		<link href='main.css' rel="stylesheet">
+	
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+	</head>
+	<body>
+
+		<!-- Nav Curtain -->
+		<div id="myNav" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div class="overlay-content" onclick="closeNav()">
+				<a href="#home">Home</a>
+				<a href="#about_me">About Me</a>
+				<a href="#my_work">My Work</a>
+			</div>
+		</div>
+
+		<!-- Nav bar -->
+		<nav class="navbar navbar-expand-md bg-transparent fixed-top text-white">
+			<div class="menu container-fluid col-md-12" onclick="openNav()">
+				<i class="nav-icon fa fa-bars"></i>
+			</div>
+		</nav>
+
+		
+
+		<!-- Education Modal -->
+        <div class="modal fade" id="education-modal" tabindex="-1" role="dialog" aria-labelledby="education-modal-title" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="education-modal-title">
+							<span class="bold" style="margin:5px; padding-left:20px; font-family: Audiowide; font-size: 36px">Education<span>
+						</h4>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<i class="fas fa-times text-white"></i>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="modal-container py-2">
+							<div class="row " style="width: 80%">
+								<div class="col-sm-12">
+									<!-- Timeline -->
+									<ul class="timeline">
+										<li class="timeline-item rounded ml-3 p-3 shadow" style="justify-content:start;">
+											<div class="timeline-arrow"></div>
+											<div class="row" style="justify-content:start">
+												<div class="col-sm-4">
+													<h2 class="h5 mb-0">Bachelor of Computer Science</h2>
+													<div class="row">
+														<span class="col-sm-7 small text-white" style="text-align: left;">Monash University</span>
+														<span class="col-sm-5 small text-white" style="text-align: right;">Jul '17 - Jul '20</span>
+													</div>
+												</div>
+												<div class="col-sm-8" style="justify-content:start; ">
+													<p class="text-small mt-2 font-weight-light">
+														<ul style="list-style-type: square;">
+															<li>Specialized in Advanced Computer Science</li>
+															<LI>Minor in Data Science</LI>
+															<li>WAM 79.875; GPA 3.500; CGPA 3.835</li>
+														</ul>
+													</p>
+												</div>
+											</div>
+										</li>
+										<li class="timeline-item rounded ml-3 p-3 shadow" style="justify-content:start;">
+											<div class="timeline-arrow"></div>
+											<div class="row" style="justify-content:start">
+												<div class="col-sm-4">
+													<h2 class="h5 mb-0">Monash University Foundation Year (MUFY)</h2>
+													<div class="row">
+														<span class="col-sm-7 small text-white" style="text-align: left;">Sunway College Johor Bahru</span>
+														<span class="col-sm-5 small text-white" style="text-align: right;">Jul '16 - Jun '17</span>
+													</div>
+												</div>
+												<div class="col-sm-8" style="justify-content:start; ">
+													<p class="text-small mt-2 font-weight-light">
+														<ul style="list-style-type: square;">
+															<li>Majoring Biological Science</li>
+															<li>WAM 90.500, CGPA 4.000</li>
+														</ul>
+													</p>
+												</div>
+											</div>
+										</li>
+										<li class="timeline-item rounded ml-3 p-3 shadow" style="justify-content:start;">
+											<div class="timeline-arrow"></div>
+											<div class="row" style="justify-content:start">
+												<div class="col-sm-4">
+													<h2 class="h5 mb-0">Malaysian Certificate of Education (SPM)</h2>
+													<div class="row">
+														<span class="col-sm-7 small text-white" style="text-align: left;">SMK Mutiara Rini</span>
+														<span class="col-sm-5 small text-white" style="text-align: right;">2011 - 2015</span>
+													</div>
+												</div>
+												<div class="col-sm-8" style="justify-content:start; ">
+													<p class="text-small mt-2 font-weight-light">
+														<ul style="list-style-type: square;">
+															<li>Pure Science with additional Principle of Accounting</li>
+															<li>10A+ 1A</li>
+														</ul>
+													</p>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+		</div>
+
+		<!-- Skills Modal -->
+        <div class="modal fade" id="skills-modal" tabindex="-1" role="dialog" aria-labelledby="skills-modal-title" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="skills-modal-title">
+							<span class="bold" style="margin:5px; padding-left:20px; font-family: Audiowide; font-size: 36px">Skills<span>
+						</h4>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<i class="fas fa-times text-white"></i>
+						</button>
+					</div>
+					<div class="modal-body">
+						<ul class="nav nav-tabs nav-fill" id="skills-tab" role="tablist">
+							<li class="nav-item tab">
+								<a class="nav-link active" id="language-tab" data-toggle="tab" href="#language" role="tab" aria-controls="language" aria-selected="true">
+									<span>Language / Framework</span>
+								</a>
+							</li>
+							<li class="nav-item tab">
+								<a class="nav-link" id="tools-tab" data-toggle="tab" href="#tools" role="tab" aria-controls="tools" aria-selected="false">
+									<span>Tools / SDK</span>
+								</a>
+							</li>
+							<li class="nav-item tab">
+								<a class="nav-link" id="others-tab" data-toggle="tab" href="#others" role="tab" aria-controls="others" aria-selected="false">
+									<span>Others</span>
+								</a>
+							</li>
+						</ul>
+						<div class="tab-content" id="skills-tab-content">
+							<div class="tab-pane fade show active" id="language" role="tabpanel" aria-labelledby="language-tab">
+								<div class="row">
+									<div class="col">
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">Python</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:90%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">Java</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:90%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">HTML / CSS</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:80%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">Javascript</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:50%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">Typescript</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:40%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">R</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:50%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col">
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">Dart</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:80%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">Haskell</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:40%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">C</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:60%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">MATLAB</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:50%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">Bootstrap</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:80%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">SQL</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:80%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col">
+
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">Spring MVC</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:80%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">REST API</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:70%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">Node.js (Express)</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:40%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">Tensorflow (Keras)</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:30%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="tools" role="tabpanel" aria-labelledby="tools-tab">
+								<div class="row">
+									<div class="col">
+										<div class="tab-panel-title">Mobile App Development</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">Flutter</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:70%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">Android Studio</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:50%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="tab-panel-title">Version Control</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">Git</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:80%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col">
+										<div class="tab-panel-title">Database</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">Oracle</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:60%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">MongoDB</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:40%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="tab-panel-title">Data Visualization</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">Tableau</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:60%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="tab-pane fade" id="others" role="tabpanel" aria-labelledby="others-tab">
+								<div class="row">
+									<div class="col">
+										<div class="tab-panel-title">Operating System</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">Windows</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:100%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">Ubuntu (Linux)</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:60%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="tab-panel-title">Others</div>
+										<div class="col px-2 py-4 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">MS Office</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:90%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div style="text-align:center; font-family: Audiowide; font-size:26px; text-decoration: underline; text-decoration-style: double ;padding-top: 10px; color:rgba(0, 81, 202, 0.925)">Communication</div>
+										<div class="tab-panel-title" style="padding-top: 5px;">Spoken / Written Language</div>
+										<div class="col px-2 py-2 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">English</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:80%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col px-2 py-2 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">Chinese</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:100%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col px-2 py-2 justify-content-start">
+											<div class="skill-rating">
+												<div claa="col-sm-4" >
+													<div style="justify-content: start;">Malay</div>
+												</div>
+												<div class="col-sm-8">
+													<div class="progress">
+														<div class="bar" style="width:70%; background: linear-gradient(to right, #33aaff 0%, #0077ff 100%)"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+		</div>
+
+		<!-- Experience Modal -->
+		<div class="modal fade" id="experience-modal" tabindex="-1" role="dialog" aria-labelledby="experience-modal-title" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="experience-modal-title">
+							<span class="bold" style="margin:5px; padding-left:20px; font-family: Audiowide; font-size: 36px">Experience<span>
+						</h4>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<i class="fas fa-times text-white"></i>
+						</button>
+					</div>
+					<div class="modal-body">
+						<ul class="nav nav-tabs nav-fill" id="experience-tab" role="tablist">
+							<li class="nav-item tab">
+								<a class="nav-link active" id="relevant-tab" data-toggle="tab" href="#relevant" role="tab" aria-controls="relevant" aria-selected="true">
+									<span>Relevant</span>
+								</a>
+							</li>
+							<li class="nav-item tab">
+								<a class="nav-link" id="irrelevant-tab" data-toggle="tab" href="#irrelevant" role="tab" aria-controls="irrelevant" aria-selected="false">
+									<span>Irrelevant</span>
+								</a>
+							</li>
+						</ul>
+						<div class="tab-content" id="experience-tab-content">
+							<div class="tab-pane fade show active" id="relevant" role="tabpanel" aria-labelledby="relevant-tab" >
+								<div class="modal-container" >
+									<div class="row" style="width:80%;">
+										<div class="row" style="justify-content:start; padding-top:50px;width:100%;">
+											<div class="col-sm-4">
+												<h2 class="h5 mb-0">Software Developer (Intern)</h2>
+												<div class="row">
+													<span class="col-sm-7 small text-white" style="text-align: left;">Techvus (M) Sdn Bhd</span>
+													<span class="col-sm-5 small text-white" style="text-align: right;">Nov '19 - Feb '20</span>
+												</div>
+											</div>
+											<div class="col-sm-8" style="justify-content:start; ">
+												<p class="text-small font-weight-light">
+													<ul style="list-style-type: square;">
+														<li>Implement UI of mobile application based on client’s design</li>
+														<LI>Assist in web application development</LI>
+													</ul>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="irrelevant" role="tabpanel" aria-labelledby="irrelevant-tab" >
+								<div class="modal-container" >
+									<div class="row" style="width:80%;">
+										<div class="row" style="justify-content:start; padding-top:50px;width:100%;">
+											<div class="col-sm-4">
+												<h2 class="h5 mb-0">Product Promoter</h2>
+												<div class="row">
+													<span class="col-sm-7 small text-white" style="text-align: left;">YS Hampers Gallery Sdn Bhd</span>
+													<span class="col-sm-5 small text-white" style="text-align: right;">
+														<div>2016 - 2019</div>
+														<div>(CNY period only)</div>
+													</span>
+												</div>
+											</div>
+											<div class="col-sm-8" style="justify-content:start; ">
+												<p class="text-small font-weight-light">
+													<ul style="list-style-type: square;">
+														<li>Utilize persuasive techniques to turn guests into paying, satisfied customers</li>
+														<LI>Inventory management</LI>
+														<li>Opening and closing cash drawer and report daily sales</li>
+													</ul>
+												</p>
+											</div>
+										</div>
+										<div class="row" style="justify-content:start; padding-top:50px;width:100%;">
+											<div class="col-sm-4">
+												<h2 class="h5 mb-0">Waitress / Bartender</h2>
+												<div class="row">
+													<span class="col-sm-7 small text-white" style="text-align: left;">27°C Teatime</span>
+													<span class="col-sm-5 small text-white" style="text-align: right;">Nov '13 - Dec '13</span>
+												</div>
+											</div>
+											<div class="col-sm-8" style="justify-content:start; ">
+												<p class="text-small font-weight-light">
+													<ul style="list-style-type: square;">
+														<li>Take orders and serving customers</li>
+														<li>Prepare hand-shake beverages</li>
+													</ul>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+		</div>
+
+
+		<!-- Main Body Content-->
+		<div id="mypage">
+			<section data-anchor="home" class="section s1" >
+				<div class="container">
+					<div class="subcontainer">
+
+						<div>
+							<img class="center header-img-height fadeInUp" src="img/hi.png">
+							<span class="description center padding-top-20">
+								Hey, I'm
+							</span>
+							<h1 class="random header">
+								<span class="nbr ltr">0</span>
+								<span class="nbr ltr">0</span>
+								<span class="nbr ltr">0</span>
+								<span class="nbr ltr">0</span>
+								<span class="nbr ltr">0</span>
+								<span class="nbr ltr">0</span>
+								<span class="nbr ltr">0</span>
+								<span class="nbr ltr">0</span>
+								<span class="nbr ltr">0</span>
+								<span class="nbr ltr">0</span>
+								<span class="nbr ltr">0</span>
+								<span class="nbr ltr">0</span>
+								<span class="nbr ltr">0</span>
+							</h1>
+							
+							<span id="nickname" class="description center">People usually call me
+								<span
+								class="txt-rotate"
+								data-period="2000"
+								data-rotate='[ "Jaycie.", "Xin Jie.", "Thing Thing."]'>
+							</span>
+						</span>
+					</div>
+				</div>
+				<div id="scroll-down">
+					<span class="normal-text bold">Scroll Down / Press [SPACE]</span>
+					<span class="arrow down">Scroll down</span>
+
+				</div>
+			</section>
+
+			<section class="section s2" data-anchor="about_me">
+				<div class="container">
+					<div class="title">
+						<span>About Me</span>
+					</div>
+					<div class="subcontainer">
+						<div class="col">
+							<span class="subheader highlight">
+								A LITTLE MORE
+							</span>
+							<span class="subheader subheader-right">
+								about me
+							</span>
+							<div class="description border">
+								<div>
+									<p>
+										<ul>
+											<li>I just graduated from Monash University Malaysia with Bachelor of Computer Science</li>
+											<li>I took Data Science minor during my study but I'm very interested in application/ software development</li>
+											<li>I am an ISFP personality type person; can leave everything else in the dust when caught up in something exciting! &#129299 </li>
+										</ul>
+									</p>
+								</div>
+							</div>
+							<a style="color: cornflowerblue; padding-top: 6px; font-weight: bold; font-family:'Courier New', monospace; font-size: 18px;" href="doc/ThingXinJie_CV.pdf" target="_blank">Click here to dowload my CV</a>
+						</div>
+						
+						<div class="col col-around">
+							<div class="row">
+								<div class="col info-box modal-open-button" data-toggle="modal" data-target="#education-modal">
+									<div>
+										<i class="info-box-icon fas fa-graduation-cap"></i>
+									</div>
+									<div class="info-box-title">Education</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col info-box modal-open-button" data-toggle="modal" data-target="#skills-modal">
+									<div>
+										<i class="info-box-icon fas fa-laptop-code"></i>
+
+									</div>
+									<div class="info-box-title">Skills</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col info-box modal-open-button" data-toggle="modal" data-target="#experience-modal">
+									<div>
+										<i class="info-box-icon fas fa-briefcase"></i>
+									</div>
+									<div class="info-box-title cross-axis">
+										<span>Work</span>
+										<span>Experience</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</section>
+
+			<section class="section s3" data-anchor="my_work">
+				<div class="container">
+					<div class="title">
+						<span>My Work</span>
+					</div>
+					<div class="subcontainer">
+						<div class="col col-around">
+							<div class="row">
+								<div id="accordion" style="width:100%; display: flex; justify-content: space-between; align-items: center; align-content: center;">
+									<a class="card-link" data-toggle="collapse" href="#collapseOne" >
+										<div class="card" style="background-color:transparent; ">
+											<div class="card-horizontal">
+												<div class="col p-4 project-box cross-axis modal-open-button info-box-title" >
+													<div>
+														<i class="info-box-icon fas fa-heartbeat"></i>
+													</div>
+													<span>FHIR</span>
+												</div>
+											</div>
+										</div>
+									</a>	
+									<div>
+										<div class="card-body" style="width: 100%">
+											<div id="collapseOne" class="collapse" data-parent="#accordion">
+												<div class="border">
+													<div class="description ">
+														<p class="description-title">FHIR Application</p>
+														<p class="description-body">
+															<ul>
+																<li>Web application that allows health practitioners to monitor patients' electronic medical records</li>
+																<li>Java | Spring MVC</li>
+																<li>
+																	<a target="_blank" href="https://fhir-demo-xj-sy.herokuapp.com/">
+																		<span>Demo Application</span>
+																	</a>
+																	<span> | </span>
+																	<a target="_blank" href="https://github.com/xinjiething/fhir">
+																		<span>View on Github</span>
+																	</a>
+																</li>
+															</ul>
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>	
+									<a class="card-link" data-toggle="collapse" href="#collapseTwo" >
+										<div class="card" style="background-color:transparent; ">
+											<div class="card-horizontal">
+												<div class="col p-4 project-box cross-axis modal-open-button info-box-title">
+													<div>
+														<i class="info-box-icon fas fa-gamepad"></i>
+													</div>
+													<span>PONG</span>
+												</div>
+												
+											</div>
+										</div>
+									</a>
+									<div>
+										<div class="card-body" style="width: 100%">
+											<div id="collapseTwo" class="collapse" data-parent="#accordion">
+												<div class="border">
+													<div class="description ">
+														<p class="description-title">Pong game</p>
+														<p class="description-body">
+															<ul>
+																<li>Table tennis sports game featuring simple 2D graphics</li>
+																<li>Typescript | Javascript</li>
+																<li>
+																	<a target="_blank" href="https://pong-demo-xj.herokuapp.com/">
+																		<span>Demo Application</span>
+																	</a>
+																	<span> | </span>
+																	<a target="_blank" href="https://github.com/xinjiething/pong-game">
+																		<span>View on Github</span>
+																	</a>
+																</li>
+															</ul>
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>	
+									
+								</div>
+							</div>
+							
+							<div class="row">
+								<div style="display:flex;justify-content:center;align-items:center;">
+									<a class="card-link" data-toggle="collapse" href="#fyp" >
+										<div class="card" style="background-color:transparent; ">
+											<div class="card-horizontal">
+												<div class="col p-4 project-box cross-axis modal-open-button info-box-title" >
+													<div>
+														<i class="info-box-icon fas fa-users-cog"></i>
+													</div>
+													<span>FYP</span>
+												</div>
+											</div>
+										</div>
+									</a>	
+									<div>
+										<div class="card-body" style="width: 100%">
+											<div id="fyp" class="collapse" data-parent="#accordion">
+												<div class="border">
+													<div class="description ">
+														<p class="description-title">Final Year Project</p>
+														<p class="description-body">
+															<ul>
+																<li>Develop an algorithm (prediction model) to detect DeepFakes</li>
+																<li>Produce a desktop application to predict if an input image/ video is a DeepFake product</li>
+																<li>Utilize image processing techniques to preprocess training data and train model using Convolutional Neural Network architecture</li>
+																<li>Python | Tensorflow | OpenCV</li>
+																<li>
+																	<a target="_blank" href="https://github.com/xinjiething/fyp-deepfakes-detection">
+																		<span>View on Github</span>
+																	</a>
+																</li>
+															</ul>
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>	
+								</div>
+							</div>
+							<div class="row">
+								<div class="col info-box">
+									<a target="_blank" href="https://github.com/xinjiething/">
+										<div class="info-box-title">View More</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+
+
+		<!-- Fixed Footer -->
+		<nav class="footer navbar navbar-expand-md navbar-light bg-transparent position-fixed fixed-bottom">
+		<div class="container-fluid col-md-12">
+			
+			<!-- Left Bottom Nav -->
+			<ul class="copyright navbar-nav mr-auto">
+				<li><span class="normal-text">Copyright © 2020 Thing Xin Jie</span></li>
+			</ul>
+
+			<!-- Right Bottom Nav -->
+			<ul class="social-media navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link text-white-50" target="_blank" href="https://www.facebook.com/thingxinjie">
+						<i class="fab fa-facebook"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white-50" target="_blank" href="http://instagram.com/thingxinjie/">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white-50" target="_blank" href="https://api.whatsapp.com/send?phone=60146141615&text=From%20thingxinjie.com">
+						<i class="fab fa-whatsapp"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white-50" target="_blank" href="https://www.linkedin.com/in/thingxinjie">
+						<i class="fab fa-linkedin"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white-50" target="_blank" href="https://www.twitter.com/thingxinjie">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white-50" target="_blank" href="https://github.com/xinjiething">
+						<i class="fab fa-github"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white-50" target="_blank" href="mailto: thingxinjie@gmail.com">
+						<i class="fas fa-envelope"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		</nav>
+
+		<!-- Script -->
+		<script src='accordion.js'></script>
+		
+	</body>
+</html>
