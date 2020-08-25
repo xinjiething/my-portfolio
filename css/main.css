@@ -91,6 +91,7 @@ html, body {
 	align-items: center;
 	height: 100%;
 	flex-wrap: wrap;
+	/* background:green; */
 }
 
 .subcontainer {
@@ -98,7 +99,7 @@ html, body {
 	height: 80%;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
 	z-index: 3;
 }
 
@@ -136,6 +137,10 @@ html, body {
 
 
 /* About Me */
+.s2 .container {
+	margin-bottom: 20px;
+}
+
 .subheader {
 	font-size: 25px;
 	font-family: Audiowide;
@@ -147,7 +152,7 @@ html, body {
 
 
 .highlight {
-	font-size: 40PX;
+	font-size: 40px;
 	text-align: left;
 	position: relative;
 	z-index: 3;
@@ -175,6 +180,14 @@ html, body {
 	box-shadow: 5px 5px 10px rgba(130, 226, 255, 0.281), -5px -5px 10px rgba(130, 226, 255, 0.281);
 	top: -12px;
 	z-index: -1;
+}
+
+.s2 .download {
+	color: cornflowerblue; 
+	padding-top: 6px; 
+	font-weight: bold; 
+	font-family:'Courier New', monospace; 
+	font-size: 18px;
 }
 
 .col-around {
@@ -236,6 +249,13 @@ html, body {
 .fp-enabled .modal{
 	position:fixed !important;
 	z-index: 9999 !important;
+}
+
+.modal-title {
+	margin:5px; 
+	padding-left:20px; 
+	font-family: Audiowide; 
+	font-size: 36px;
 }
 
 .modal-dialog {
@@ -412,8 +432,27 @@ html, body {
 
 }
 
+.view-box {
+	border: 2px solid rgba(185, 225, 248, 0.658);
+	border-radius: 10px;
+	box-shadow: 0 5px 10px rgba(75, 203, 212, 0.37);
+	transition: 0.3s ease-out;
+	cursor: pointer;
+	align-items: center;
+	display: flex;
+	padding: 10px;
+}
+
 .card-horizontal {
 	display: flex;
+}
+
+.card-accordion {
+	width:100%; 
+	display: flex; 
+	justify-content: space-between; 
+	align-items: center; 
+	align-content: center;
 }
 
 .s3 .border {

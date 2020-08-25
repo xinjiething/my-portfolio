@@ -10,8 +10,8 @@
 			type="image/png" 
 			sizes="32x32"
 			href="./img/favicon.png">
-		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-		<meta name="viewport" content="width=1024">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- <meta name="viewport" content="width=1024"> -->
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -42,6 +42,8 @@
 		<script src="./javascript/main.js"></script>
 		<script src="./javascript/fullpage.js"></script>		
 		<link href='./css/main.css' rel="stylesheet">
+		<link href='./css/mobile.css' rel="stylesheet">
+
 	
 
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
@@ -73,7 +75,7 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<h4 class="modal-title" id="education-modal-title">
-							<span class="bold" style="margin:5px; padding-left:20px; font-family: Audiowide; font-size: 36px">Education<span>
+							<span class="bold">Education<span>
 						</h4>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							<i class="fas fa-times text-white"></i>
@@ -97,7 +99,7 @@
 												</div>
 												<div class="col-sm-8" style="justify-content:start; ">
 													<p class="text-small mt-2 font-weight-light">
-														<ul style="list-style-type: square;">
+														<ul class="list-text" style="list-style-type: square;">
 															<li>Specialized in Advanced Computer Science</li>
 															<LI>Minor in Data Science</LI>
 															<li>WAM 79.875; GPA 3.500; CGPA 3.835</li>
@@ -118,7 +120,7 @@
 												</div>
 												<div class="col-sm-8" style="justify-content:start; ">
 													<p class="text-small mt-2 font-weight-light">
-														<ul style="list-style-type: square;">
+														<ul class="list-text" style="list-style-type: square;">
 															<li>Majoring Biological Science</li>
 															<li>WAM 90.500, CGPA 4.000</li>
 														</ul>
@@ -138,7 +140,7 @@
 												</div>
 												<div class="col-sm-8" style="justify-content:start; ">
 													<p class="text-small mt-2 font-weight-light">
-														<ul style="list-style-type: square;">
+														<ul class="list-text" style="list-style-type: square;">
 															<li>Pure Science with additional Principle of Accounting</li>
 															<li>10A+ 1A</li>
 														</ul>
@@ -161,7 +163,7 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<h4 class="modal-title" id="skills-modal-title">
-							<span class="bold" style="margin:5px; padding-left:20px; font-family: Audiowide; font-size: 36px">Skills<span>
+							<span class="bold">Skills<span>
 						</h4>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							<i class="fas fa-times text-white"></i>
@@ -573,7 +575,7 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<h4 class="modal-title" id="experience-modal-title">
-							<span class="bold" style="margin:5px; padding-left:20px; font-family: Audiowide; font-size: 36px">Experience<span>
+							<span class="bold">Experience<span>
 						</h4>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							<i class="fas fa-times text-white"></i>
@@ -606,7 +608,7 @@
 											</div>
 											<div class="col-sm-8" style="justify-content:start; ">
 												<p class="text-small font-weight-light">
-													<ul style="list-style-type: square;">
+													<ul class="list-text" style="list-style-type: square;">
 														<li>Implement UI of mobile application based on client’s design</li>
 														<LI>Assist in web application development</LI>
 													</ul>
@@ -632,7 +634,7 @@
 											</div>
 											<div class="col-sm-8" style="justify-content:start; ">
 												<p class="text-small font-weight-light">
-													<ul style="list-style-type: square;">
+													<ul class="list-text" style="list-style-type: square;">
 														<li>Utilize persuasive techniques to turn guests into paying, satisfied customers</li>
 														<LI>Inventory management</LI>
 														<li>Opening and closing cash drawer and report daily sales</li>
@@ -650,7 +652,7 @@
 											</div>
 											<div class="col-sm-8" style="justify-content:start; ">
 												<p class="text-small font-weight-light">
-													<ul style="list-style-type: square;">
+													<ul class="list-text" style="list-style-type: square;">
 														<li>Take orders and serving customers</li>
 														<li>Prepare hand-shake beverages</li>
 													</ul>
@@ -674,8 +676,8 @@
 					<div class="subcontainer">
 
 						<div>
-							<img class="center header-img-height fadeInUp" src="img/hi.png">
-							<span class="description center padding-top-20">
+							<img class="center header-img-height" src="img/hi.png">
+							<span class="description center padding-top-40">
 								Hey, I'm
 							</span>
 							<h1 class="random header">
@@ -704,7 +706,7 @@
 					</div>
 				</div>
 				<div id="scroll-down">
-					<span class="normal-text bold">Scroll Down / Press [SPACE]</span>
+					<span class="normal-text bold">Scroll Down</span>
 					<span class="arrow down">Scroll down</span>
 
 				</div>
@@ -734,12 +736,12 @@
 									</p>
 								</div>
 							</div>
-							<a style="color: cornflowerblue; padding-top: 6px; font-weight: bold; font-family:'Courier New', monospace; font-size: 18px;" href="doc/ThingXinJie_CV.pdf" target="_blank">Click here to dowload my CV</a>
+							<a class="download" href="doc/ThingXinJie_CV.pdf" target="_blank">Click here to dowload my CV</a>
 						</div>
 						
 						<div class="col col-around">
 							<div class="row">
-								<div class="col info-box modal-open-button" data-toggle="modal" data-target="#education-modal">
+								<div class="col info-box" data-toggle="modal" data-target="#education-modal">
 									<div>
 										<i class="info-box-icon fas fa-graduation-cap"></i>
 									</div>
@@ -747,7 +749,7 @@
 								</div>
 							</div>
 							<div class="row">
-								<div class="col info-box modal-open-button" data-toggle="modal" data-target="#skills-modal">
+								<div class="col info-box" data-toggle="modal" data-target="#skills-modal">
 									<div>
 										<i class="info-box-icon fas fa-laptop-code"></i>
 
@@ -756,7 +758,7 @@
 								</div>
 							</div>
 							<div class="row">
-								<div class="col info-box modal-open-button" data-toggle="modal" data-target="#experience-modal">
+								<div class="col info-box" data-toggle="modal" data-target="#experience-modal">
 									<div>
 										<i class="info-box-icon fas fa-briefcase"></i>
 									</div>
@@ -780,7 +782,8 @@
 					<div class="subcontainer">
 						<div class="col col-around">
 							<div class="row">
-								<div id="accordion" style="width:100%; display: flex; justify-content: space-between; align-items: center; align-content: center;">
+								<div id="accordion" class="card-accordion">
+									
 									<a class="card-link" data-toggle="collapse" href="#collapseOne" >
 										<div class="card" style="background-color:transparent; ">
 											<div class="card-horizontal">
@@ -799,8 +802,8 @@
 												<div class="border">
 													<div class="description ">
 														<p class="description-title">FHIR Application</p>
-														<p class="description-body">
-															<ul>
+														<p>
+															<ul class="description-body">
 																<li>Web application that allows health practitioners to monitor patients' electronic medical records</li>
 																<li>Java | Spring MVC</li>
 																<li>
@@ -819,6 +822,7 @@
 											</div>
 										</div>
 									</div>	
+
 									<a class="card-link" data-toggle="collapse" href="#collapseTwo" >
 										<div class="card" style="background-color:transparent; ">
 											<div class="card-horizontal">
@@ -838,8 +842,8 @@
 												<div class="border">
 													<div class="description ">
 														<p class="description-title">Pong game</p>
-														<p class="description-body">
-															<ul>
+														<p>
+															<ul class="description-body">
 																<li>Table tennis sports game featuring simple 2D graphics</li>
 																<li>Typescript | Javascript</li>
 																<li>
@@ -857,17 +861,12 @@
 												</div>
 											</div>
 										</div>
-									</div>	
-									
-								</div>
-							</div>
-							
-							<div class="row">
-								<div style="display:flex;justify-content:center;align-items:center;">
+									</div>
+
 									<a class="card-link" data-toggle="collapse" href="#fyp" >
 										<div class="card" style="background-color:transparent; ">
 											<div class="card-horizontal">
-												<div class="col p-4 project-box cross-axis modal-open-button info-box-title" >
+												<div class="col p-4 project-box cross-axis info-box-title" >
 													<div>
 														<i class="info-box-icon fas fa-users-cog"></i>
 													</div>
@@ -882,8 +881,8 @@
 												<div class="border">
 													<div class="description ">
 														<p class="description-title">Final Year Project</p>
-														<p class="description-body">
-															<ul>
+														<p>
+															<ul class="description-body">
 																<li>Develop an algorithm (prediction model) to detect DeepFakes</li>
 																<li>Produce a desktop application to predict if an input image/ video is a DeepFake product</li>
 																<li>Utilize image processing techniques to preprocess training data and train model using Convolutional Neural Network architecture</li>
@@ -902,8 +901,9 @@
 									</div>	
 								</div>
 							</div>
+							
 							<div class="row">
-								<div class="col info-box">
+								<div class="view-box">
 									<a target="_blank" href="https://github.com/xinjiething/">
 										<div class="info-box-title">View More</div>
 									</a>
